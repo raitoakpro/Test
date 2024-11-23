@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.food {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+
+.food-item {
+  position: relative;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  overflow: hidden;
+  text-align: left;
+}
+
+.food-item img {
+  width: 100%;
+  object-fit: cover;
+  border-bottom: 1px solid #ddd;
+}
+
+
+.food-item p {
+  font-size: 12px;
+  margin: 10px 15px 5px;
+  font-weight: 500;
+  color: #000000;
+  height: 25px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+ 
+.new-price {
+  font-size: 16px;
+  font-weight: bold;
+  color: #000000;
+  margin: 2px 15px 2px;
+  display: block;
+}
+
+.old-price {
+  font-size: 12px;
+  color: #333;
+  margin: 1px 15px 10px;
+  display: block;
+  text-decoration: line-through;
+}
+
+
+.cloth-item {
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 400px; 
+  text-align: left;
+  border-radius: 10px;
+  margin-left: 50px;
+}
+
+.cloth-item img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.cloth-item p {
+  font-size: 12px;
+  margin: 10px 15px 5px;
+  font-weight: 500;
+  color: #000000;
+  height: 25px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.coupon{
+  position: absolute;
+  top: 10px; 
+  left: 10px; 
+  background-color: #000000;
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 3px 10px; 
+  border-radius: 10px; 
+}
